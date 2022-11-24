@@ -26,7 +26,7 @@
         
         <h3>The original Text was:</h3>
         <p><?php echo $user_txt ?></p>
-        <p>The original text is <?php echo strlen($user_txt) ?> words long</p>
+        <p>The original text was <?php echo strlen($user_txt) ?> words long</p>
         
         <h3>The censored one is:</h3>
         <p> <?php echo $censored_txt ?> </p>
